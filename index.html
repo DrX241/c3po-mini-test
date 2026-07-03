@@ -2,9 +2,44 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Test C-3PO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-3PO GitHub Builder</title>
+    <!-- Inclusion du CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f8f9fa;
+        }
+        .btn-custom:hover {
+            background-color: #0d6efd;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    Hello, C-3PO GitHub Builder.
+    <main>
+        <h1 class="display-4 mb-4">Hello, C-3PO GitHub Builder.</h1>
+        <button class="btn btn-outline-primary btn-lg btn-custom">En savoir plus</button>
+    </main>
+    <footer>
+        <p>© 2026</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
